@@ -1,0 +1,25 @@
+{
+  "name": "svg-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "publish": "npm run build && npm run publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "render"
+  ],
+  "author": "lanmingming",
+  "license": "MIT",
+  "dependencies": {
+    "m-svg-parser": "^1.0.4"
+  },
+  "devDependencies": {
+    "rollup": "^0.56.4",
+    "rollup-plugin-commonjs": "^9.0.0",
+    "rollup-plugin-node-resolve": "^3.0.3"
+  }
+}
